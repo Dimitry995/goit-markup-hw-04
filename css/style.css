@@ -6,6 +6,8 @@
 	--five-color:#F5F4FA;
 	--six-color:#2F303A;
 	--seven-color:#eee;
+	--eight-color:#ccc;
+	--nine-color:#AFB1B8;
 }
 body {
 	font-size:14px;
@@ -37,7 +39,7 @@ section {
 font-weight: 500;
 letter-spacing: 0.02em;
 text-align: left;
-color:#212121;
+color:var(--main-color);
 text-decoration:none;
 padding-top:32px;
 
@@ -50,7 +52,7 @@ padding-top:32px;
 }
 .top-menu a.logo   {
 	width:250px;
-	color:#2196F3;
+	color:var(--four-color);
 	font-family: 'Raleway', sans-serif;
 	font-size: 26px;
 	font-weight: 700;
@@ -63,16 +65,16 @@ padding-top:32px;
 	color:var(--main-color);
 }
 .logo-color-white{
-	color:#fff;
+	color:var(--third-color);
 }
 .center-top.right-top a:hover {
-	color:#2196F3;
+	color:var(--four-color);
 }
 .center-top.right-top a:focus {
-	color:#2196F3;
+	color:var(--four-color);
 }
 .center-top.right-top a:active {
-	color:#2196F3;
+	color:var(--four-color);
 }
 ul.center-top {
 	height:80px;
@@ -105,10 +107,10 @@ li.right-top {
 	margin-top:32px;
 }
 a.right-top {
-	color:#757575;
+	color:var(--secondary-color);
 }
 .icon:hover {
-	fill:#2196F3;
+	fill:var(--four-color);
 }
 /*--HEADER--END--*/
 /*--MAIN--HERO-START--*/
@@ -116,7 +118,7 @@ a.right-top {
 
 .hero  {
 	height:600px;
-	background-color:#2F303A;
+	background-color:var(--six-color);
 	background-image: url(./18.jpg);
 	padding-top:0;
 }
@@ -127,7 +129,7 @@ a.right-top {
 	line-height: 0.73;
 	letter-spacing: 0.06em;
 	text-align: center;
-	color:#fff;
+	color:var(--third-color);
 	margin-top:0;
 	margin-bottom:15px;
 	text-transform:uppercase;
@@ -146,7 +148,7 @@ a.right-top {
 	line-height: 0.53;
 	letter-spacing: 0.06em;
 	text-align: center;
-	color:#fff;
+	color:var(--third-color);
 	
 }
 .info h2 {
@@ -168,7 +170,6 @@ letter-spacing: 0.03em;
 text-align: left;
 }
 .info p {
-	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: 0.03em;
 	text-align: left;
@@ -179,7 +180,7 @@ text-align: left;
 .info-icon {
 	width: 270px;
 	height: 120px;
-	background-color: #ccc;
+	background-color:var(--eight-color);
 	border-radius: 4px;
 }
 .info-icon img {
@@ -212,7 +213,7 @@ text-align: left;
 	margin:0 auto;
 	font-size: 36px;
 	font-weight: 700;
-	line-height: 42px;
+	line-height: 0.86;
 	letter-spacing: 0.03em;
 	text-align: center;
 	color:var(--main-color);
@@ -229,7 +230,7 @@ text-align: left;
 }
 .person {
 	height:648px;
-	background-color: #F5F4FA;
+	background-color: var(--five-color);
 }
 .person h2 {
 margin: 0 auto;
@@ -245,7 +246,6 @@ padding-bottom:50px;
 }
 .person h3 {
 	font-size: 16px;
-	font-style: normal;
 	font-weight: 500;
 	line-height: 0.8;
 	letter-spacing: 0.03em;
@@ -255,11 +255,10 @@ padding-bottom:50px;
 }
 .person p {
 font-size: 16px;
-font-weight: 400;
 line-height: 0.8;
 letter-spacing: 0.03em;
 text-align: center;
-color:#757575;
+color:var(--secondary-color);
 
 }
 .person ul {
@@ -271,7 +270,7 @@ color:#757575;
 }
 .person li {
 			display:inline-block;
-			background-color: #fff;
+			background-color:var(--third-color);
 
 }
 .person  img {
@@ -298,10 +297,10 @@ li.social   {
 
 .social li:hover {
 	border-radius: 50%;
-	background-color: #2196F3;
+	background-color: var(--four-color);
 }
 .social svg:focus {
-	background-color: #2196F3;
+	background-color: var(--four-color);
 }
 .clients {
 	height:372px;
@@ -328,7 +327,7 @@ margin-bottom: 50px;
 	height:92px;
 	width:170px;
 	display: inline-flex;
-	border: 1px solid #AFB1B8;
+	border: 1px solid var(--nine-color);
 	border-radius: 4px;
 	display: flex;
 	justify-content: center;
@@ -338,10 +337,10 @@ margin-bottom: 50px;
 
 }
 .clients a:hover {
-	stroke:#2196f3;
+	stroke:var(--nine-color);
 }
 .clients a:focus {
-	stroke:#2196f3;
+	stroke:var(--nine-color);
 }
 /*index.html-END-*/
 /*portfolio.html*/
@@ -370,7 +369,7 @@ margin-bottom: 50px;
 	letter-spacing: 0.03em;
 	text-align: center;
 	color:var(--main-color);
-	background: #F5F4FA;
+	background: var(--five-color);;
 	border-radius: 4px;
 
 }
@@ -396,7 +395,6 @@ margin-left:15px;
 }
 .content p {
 font-size: 16px;
-font-weight: 400;
 line-height: 0.5;
 letter-spacing: 0.03em;
 text-align: left;
@@ -414,7 +412,7 @@ margin-left:15px;
 /*--FOOTER--START--*/
 .footer {
 	height:252px;
-	background-color:#2F303A;
+	background-color:#var(--six-color);;
 	display: flex;
 }
 .left-bottom {
@@ -434,15 +432,14 @@ margin-left:15px;
 	padding-top:24px;	
 }
 .left-bottom a {
-	font-weight: 400;
-	line-height: 24px;
+	line-height:0.6;
 	letter-spacing: 0.03em;
 	text-align: left;
 
 }
 .left-bottom ul {
 	padding-top:111px;
-	background-color:#2F303A;
+	background-color:var(--six-color);
 }
 .left-bottom li {
 	list-style:none;
@@ -453,11 +450,10 @@ font-weight: 400;
 line-height: 0.6;
 letter-spacing: 0.03em;
 text-align: left;
-color: #fff;
+color: var(--third-color);
 
 }
 li.email-phone {
-font-weight: 400;
 line-height: 0.6;
 letter-spacing: 0.03em;
 text-align: left;
