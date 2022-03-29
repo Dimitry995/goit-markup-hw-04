@@ -471,7 +471,7 @@ text-transform: uppercase;
 color:var(--third-color);
 }
 .center-bottom a {
-	
+	padding-bottom:9px;
 }
 .center-bottom ul {
 	display:flex;
