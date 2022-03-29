@@ -444,19 +444,21 @@ margin-left:15px;
 	list-style:none;
 }
 
-li.adress {
+a.adress {
 font-weight: 400;
 line-height: 0.6;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--third-color);
+padding-bottom:9px;
 
 }
-li.email-phone {
+a.email-phone {
 line-height: 0.6;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
+padding-bottom:9px;
 }
 .center-bottom {
 float:left;
@@ -471,7 +473,7 @@ text-transform: uppercase;
 color:var(--third-color);
 }
 .center-bottom a {
-	padding-bottom:9px;
+	
 }
 .center-bottom ul {
 	display:flex;
