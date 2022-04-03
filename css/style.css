@@ -457,7 +457,7 @@ line-height: 0.6;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
-padding-bottom:9px;
+padding-top:9px;
 }
 .center-bottom {
 float:left;
