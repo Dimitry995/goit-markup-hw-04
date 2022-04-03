@@ -417,7 +417,7 @@ margin-left:15px;
 	width:300px;
 	float:left;
 }
-.left-bottom a .logo {
+a.logo {
 	width:250px;
 	color:var(--four-color);
 	font-family: 'Raleway', sans-serif;
