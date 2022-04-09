@@ -452,7 +452,7 @@ color: var(--third-color);
 padding-bottom:9px;
 
 }
-a.email-phone {
+a.email.phone {
 line-height: 0.6;
 letter-spacing: 0.03em;
 text-align: left;
