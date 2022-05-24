@@ -451,7 +451,6 @@ margin-left:15px;
 .footer {
 	height:252px;
 	background-color:var(--six-color);
-	display: flex;
 }
 .logo-bottom {
 	color:var(--four-color);
