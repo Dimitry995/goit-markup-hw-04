@@ -236,7 +236,10 @@ ul.img-list  {
 }
 li.img-item {
 		display:inline-block;
-		padding-right:15px;
+		margin-right:26px;
+}
+.img-item:last-child {
+margin-right:0;	
 }
 .img h2 {
 	margin:0 auto;
