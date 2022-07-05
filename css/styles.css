@@ -383,7 +383,6 @@ li.clients-item  {
 /*index.html-END-*/
 /*portfolio.html*/
 .filters {
-	padding-top:100px;
 	margin:0 auto;
 }
 .filters-title {
@@ -425,12 +424,13 @@ color:var(--third-color);
 	background-color: var(--four-color);
 	color:var(--third-color);
 	}
-ul.content-list  {
+.content-list  {
 	list-style:none;
 	text-decoration:none;
 	display:inline-block;
+	margin-top:50px;
 }
-li.content-item  {
+.content-item  {
 	list-style:none;
 	text-decoration:none;
 	display:inline-block;
