@@ -229,12 +229,12 @@ position:relative;
 .img {
 	height:auto;
 }
-ul.img-list  {
+.img-list  {
 	padding-top:50px;
 	height:auto;
 	width:1170px;
 }
-li.img-item {
+.img-item {
 		display:inline-block;
 		margin-right:26px;
 }
@@ -291,14 +291,14 @@ margin-bottom:20px;
 font-weight:400;
 
 }
-ul.person-list  {
+.person-list  {
 	width: 1200px;
     padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-li.person-item  {
+.person-item  {
 			display:inline-block;
 			background-color:#fff;
 			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -312,7 +312,7 @@ border-radius: 0px 0px 4px 4px;
 	width:270px;
 	height:75px;
 }
-ul.social-list  {
+.social-list  {
 	width:270px;
 	height:75px;
 	display: flex;
@@ -320,7 +320,7 @@ ul.social-list  {
 
 	justify-content: space-around;
 }
-li.social-item  {
+.social-item  {
 	display: flex;
 	width:100%;
 	height:44px;
@@ -328,7 +328,7 @@ li.social-item  {
 	align-items: center;
 	justify-content: center;
 }
-a.social-link  {
+.social-link  {
   height:20px;
   width:20px;
   display: flex;
@@ -359,12 +359,12 @@ margin-bottom: 0;
 padding-bottom: 50px;
 
 }
-ul.clients-list  {
+.clients-list  {
 	display: flex;
 	flex-direction: row;
 
 }
-li.clients-item  {
+.clients-item  {
 	height:92px;
 	width:170px;
 	display: inline-flex;
@@ -399,16 +399,15 @@ li.clients-item  {
 
 }
 .filters-item  {
-	width:145px;
-	height:38px;
 	list-style:none;
 	text-decoration:none;
 	display:inline-block;
-	margin-left:20px;
+	margin-right:8px;
+}
+.filters-item:last-child {
+margin-right:0;	
 }
 .filters-link {
-	width:145px;
-	height:38px;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 26px;
@@ -417,7 +416,7 @@ li.clients-item  {
 	color:var(--main-color);
 	background: var(--five-color);
 	border-radius: 4px;
-	padding-top:5px;
+	padding:6px 22px;
 
 }
 .filters-link:hover {
@@ -443,6 +442,11 @@ color:var(--third-color);
 	border:1px solid var(--seven-color);
 	margin-bottom:30px;
 }
+.block {
+padding-top:20px;
+	badding-bottom:20px;
+	padding-left:24px;
+}
 .content-title {
 font-size: 18px;
 font-weight: 700;
@@ -450,9 +454,6 @@ line-height: 36px;
 letter-spacing: 0.06em;
 text-align: left;
 color:var(--main-color);
-margin-left:24px;
-margin-top:20px;
-margin-bottom:20px;
 
 }
 .content-paragraf {
@@ -461,8 +462,6 @@ line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--secondary-color);
-margin-left:24px;
-	margin-bottom:20px;
 
 }
 .content img {
