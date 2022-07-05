@@ -440,7 +440,7 @@ color:var(--third-color);
 	border:1px solid var(--seven-color);
 	margin-bottom:30px;
 }
-.content h2 {
+.content-title {
 font-size: 18px;
 font-weight: 700;
 line-height: 36px;
@@ -452,7 +452,7 @@ margin-top:20px;
 margin-bottom:20px;
 
 }
-.content p {
+.content-paragraf {
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
