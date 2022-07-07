@@ -121,6 +121,9 @@ text-align: left;
 text-decoration:none;
 color:var(--secondary-color);	
 }
+.icon {
+margin-right:10px;	
+}
 .top-right a:hover {
 	color:var(--four-color);
 	stroke:var(--four-color);
@@ -128,6 +131,7 @@ color:var(--secondary-color);
 }
 .icon:hover {
 	fill:var(--four-color);
+	stroke:var(--four-color);
 }
 .current {
 	color:var(--four-color);
