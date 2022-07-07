@@ -121,7 +121,7 @@ text-align: left;
 text-decoration:none;
 color:var(--secondary-color);	
 }
-.icon {
+.icon-top {
 margin-right:10px;	
 }
 .top-right a:hover {
@@ -129,7 +129,7 @@ margin-right:10px;
 	stroke:var(--four-color);
 
 }
-.icon:hover {
+.icon-top:hover {
 	fill:var(--four-color);
 	stroke:var(--four-color);
 }
@@ -215,7 +215,7 @@ margin-right:10px;
 	height: 120px;
 	background-color:var(--seven-color);
 }
-.info-icon img {
+.info-icon {
 	height:120px;
 	width: %100;
 	display:flex;
