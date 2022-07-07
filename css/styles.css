@@ -216,12 +216,7 @@ margin-right:10px;
 	background-color:var(--seven-color);
 }
 .icon-info {
-	height:120px;
-	width: %100;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	margin:0 auto;
+	padding:25px 100px;
 }
 .img {
 	height:auto;
