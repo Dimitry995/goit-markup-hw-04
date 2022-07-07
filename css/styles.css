@@ -138,7 +138,7 @@ color:var(--secondary-color);
 
 .hero  {
 	height:600px;
-	background-image: url(/images/18.jpg);
+	background-image: url(../images/18.jpg);
 	padding-top:0;
 	padding-bottom:200px;
 }
