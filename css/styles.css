@@ -198,7 +198,7 @@ margin-right:10px;
 	letter-spacing: 0.03em;
 	text-align: left;
 	color:var(--main-color);
-	padding-top:30px;
+	margin-top:30px;
 	margin-bottom:15px;
 
 }
@@ -215,7 +215,7 @@ margin-right:10px;
 	height: 120px;
 	background-color:var(--seven-color);
 }
-.info-icon {
+.icon-info {
 	height:120px;
 	width: %100;
 	display:flex;
@@ -227,9 +227,9 @@ margin-right:10px;
 	height:auto;
 }
 .img-list  {
-	padding-top:50px;
+	margin-top:50px;
 	height:auto;
-	width:1170px;
+	width:1200px;
 }
 .img-item {
 		display:inline-block;
