@@ -149,13 +149,14 @@ margin-right:10px;
 .hero-title {
 	font-size: 44px;
 	font-weight: 900;
-	line-height: 0.73;
+	line-height: 1.4;
 	letter-spacing: 0.06em;
 	text-align: center;
 	color:var(--third-color);
 	margin:0 auto;
 	margin-bottom:15px;
 	width:700px;
+	text-transform:uppercase ;
 
 	
 }
