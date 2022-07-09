@@ -510,28 +510,17 @@ text-align: left;
 color: var(--third-color);
 
 }
-a.email {
+.email-phone {
 line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
+	font-style:normal;
 }
-a.phone {
-	line-height: 24px;
-	letter-spacing: 0.03em;
-	text-align: left;
-	color:var(--secondary-color);
-	}
-a.email:hover {
+.email-phone:hover {
 	color: var(--four-color);
 }
-a.phone:hover {
-	color: var(--four-color);
-}
-a.email:focus {
-	color: var(--four-color);
-}
-a.phone:focus {
+.email-phone:focus {
 	color: var(--four-color);
 }
 .center {
