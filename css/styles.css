@@ -470,9 +470,9 @@ color: var(--secondary-color);
 
 /*--FOOTER--START--*/
 .footer {
-	height:252px;
 	background-color:var(--six-color);
 	display: flex;
+    	flex-direction: row;
 	padding:60px 0;
 }
 a.logo-bottom {
@@ -489,8 +489,8 @@ a.logo-bottom {
 	color:var(--third-color);
 }
 .left {
-	width:300px;
-	float:left;
+	display: flex;
+    flex-direction: column;
 }
 .left a {
 	text-decoration: none;
@@ -524,8 +524,8 @@ color:var(--secondary-color);
 	color: var(--four-color);
 }
 .center {
-float:left;
-width:300px;
+    display: flex;
+    flex-direction: column;
 }
 .center h3 {
 font-weight: bold;
