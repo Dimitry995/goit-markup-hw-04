@@ -509,17 +509,17 @@ text-align: left;
 color: var(--third-color);
 
 }
-.email-phone {
+a.email-phone {
 line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
 font-style:normal;
 }
-.email-phone:hover {
+a.email-phone:hover {
 	color: var(--four-color);
 }
-.email-phone:focus {
+a.email-phone:focus {
 	color: var(--four-color);
 }
 .center {
