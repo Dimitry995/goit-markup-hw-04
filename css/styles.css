@@ -8,15 +8,7 @@
 	--seven-color:#eee;
 	--eight-color:#AFB1B8;
 }
-.social li:hover{
 
-	border-radius: 50%;
-	background-color: var(--four-color);
-}
-.social-item:hover .social-icon  {
-	fill:#fff;
-}
-}
 body {
 	font-size:14px;
 	font-weight:400;
@@ -135,7 +127,7 @@ color:var(--secondary-color);
 margin-right:10px;
 fill:var(--eight-color);
 }
-.right-item:hover {
+.right-item:hover .contact-link {
 	color:var(--four-color);
 }
 .right-item:hover .top-icon {
