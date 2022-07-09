@@ -514,7 +514,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
-	font-style:normal;
+font-style:normal;
 }
 .email-phone:hover {
 	color: var(--four-color);
