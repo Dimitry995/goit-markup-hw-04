@@ -6,6 +6,16 @@
 	--five-color:#F5F4FA;
 	--six-color:#2F303A;
 	--seven-color:#eee;
+	--eight-color:#AFB1B8;
+}
+.social li:hover{
+
+	border-radius: 50%;
+	background-color: var(--four-color);
+}
+.social-item:hover .social-icon  {
+	fill:#fff;
+}
 }
 body {
 	font-size:14px;
@@ -121,17 +131,21 @@ text-align: left;
 text-decoration:none;
 color:var(--secondary-color);	
 }
-.icon-top {
-margin-right:10px;	
+.top-icon {
+margin-right:10px;
+fill:var(--eight-color);
 }
-.top-right a:hover {
+.right-item:hover {
 	color:var(--four-color);
-	stroke:var(--four-color);
-
 }
-.icon-top:hover {
+.right-item:hover .top-icon {
 	fill:var(--four-color);
-	stroke:var(--four-color);
+}
+.right-item:focus {
+	color:var(--four-color);
+}
+.right-item:focus .top-icon {
+	fill:var(--four-color);
 }
 .current {
 	color:var(--four-color);
@@ -216,9 +230,7 @@ margin-right:10px;
 	background-color:var(--seven-color);
 }
 .icon-info {
-	padding:25px 100px;
-	width:70px;
-	height:70px;
+	margin:25px 100px;
 }
 .img {
 	height:auto;
@@ -329,13 +341,16 @@ padding:12px;
 .social-item:last-child {
 margin-right:26px;	
 }
-.social li:hover {
+.social-icon {
+	fill:var(--eight-color);
+}
+.social li:hover{
 
 	border-radius: 50%;
 	background-color: var(--four-color);
 }
-.social svg:focus {
-	background-color: var(--four-color);
+.social-item:hover .social-icon  {
+	fill:var(--third-color);
 }
 .clients {
 	height:372px;
@@ -367,14 +382,16 @@ margin-bottom:50px;
 	justify-content: center;
 	align-items: center;
 	margin-right: 30px;
-
-
 }
-.clients a:hover {
-	stroke:var(--four-color);
+
+.clients-icon {
+	fill:var(--eight-color);
 }
-.clients a:focus {
-	stroke:var(--four-color);
+.clients-item:hover .clients-icon {
+	fill:var(--four-color);
+}
+.clients-item:hover  {
+	border: 1px solid var(--four-color);
 }
 /*index.html-END-*/
 /*portfolio.html*/
