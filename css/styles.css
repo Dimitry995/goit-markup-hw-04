@@ -333,8 +333,7 @@ margin-right:26px;
 .social-icon {
 	fill:var(--eight-color);
 }
-.social li:hover{
-
+.social-item:hover{
 	border-radius: 50%;
 	background-color: var(--four-color);
 }
