@@ -533,7 +533,6 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--third-color);
-padding-left: 26px;
 }
 
 .center ul {
@@ -551,5 +550,8 @@ a.center {
 a.center:hover  {
 	background-color: var(--four-color);
 	border-radius: 50%;
+}
+.margin {
+margin-left:0;	
 }
 /*--FOOTER--END--*/
