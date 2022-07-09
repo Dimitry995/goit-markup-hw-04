@@ -152,7 +152,7 @@ fill:var(--eight-color);
 	padding-bottom:200px;
 	text-align:center;
 	max-width:1600px;
-	background: rgba(47, 48, 58, 0.4);
+	color: rgba(47, 48, 58, 0.4);
 }
 .hero-title {
 	font-size: 44px;
@@ -495,7 +495,6 @@ a.logo-bottom {
 	text-decoration: none;
 	}
 .left ul {
-	padding-top:40px;
 	background-color:var(--six-color);
 }
 .left li {
@@ -507,6 +506,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--third-color);
+	font-style:normal;
 
 }
 a.email-phone {
@@ -549,6 +549,14 @@ a.center {
 a.center:hover  {
 	background-color: var(--four-color);
 	border-radius: 50%;
+}
+..social-item-bottom  {
+	height:44px;
+	width:44px;
+	display:inline-block;
+	margin-left:10px;
+	border-radius: 50%;
+    	color: var(--secondary-color);
 }
 .margin {
 margin-left:0;	
