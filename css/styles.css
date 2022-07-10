@@ -7,6 +7,7 @@
 	--six-color:#2F303A;
 	--seven-color:#eee;
 	--eight-color:#AFB1B8;
+	--nine-color:#ECECEC;
 }
 
 body {
@@ -56,6 +57,7 @@ margin-left:0;
 .menu {
 	display:flex;
 	height:80px;
+	border-bottom:1px solid var(--nine-color);
 }
 .menu ul {
 
@@ -467,6 +469,12 @@ color: var(--secondary-color);
 .content img {
 	width: 370px;
 	height: 294px;
+}
+.content-item:hover {
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);	
+}
+.content-item:focus {
+	    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
 }
 /*portfolio.html-END-*/
 /*--MAIN--HERO-END--*/
