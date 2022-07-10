@@ -502,19 +502,21 @@ a.logo-bottom {
 }
 
 a.adress {
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--third-color);
 	font-style:normal;
+	margin-top:6px;
 
 }
 a.email-phone {
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
 font-style:normal;
+margin-top:9px;
 }
 a.email-phone:hover {
 	color: var(--four-color);
@@ -525,10 +527,11 @@ a.email-phone:focus {
 .center {
     display: flex;
     flex-direction: column;
+	margin-left:70px;
 }
 .center h3 {
 font-weight: bold;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--third-color);
@@ -540,6 +543,8 @@ color: var(--third-color);
 .center li {
 	height:44px;
 	width:44px;
+	border-radius: 50%;
+    background-color: var(--secondary-color);
 }
 a.center {
 	height:20px;
@@ -557,6 +562,9 @@ a.center:hover  {
 	margin-left:10px;
 	border-radius: 50%;
     	color: var(--secondary-color);
+}
+.footer-list {
+	display:flex;
 }
 .margin {
 margin-left:0;	
