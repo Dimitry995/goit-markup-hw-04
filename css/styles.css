@@ -44,6 +44,9 @@ img {
 	height:auto;
 	max-width:100%;
 }
+.margin {
+margin-left:0;	
+}
 /*--HEADER--START--*/
 .header {
 	display: flex;
@@ -567,7 +570,5 @@ a.center:hover  {
 .footer-list {
 	display:flex;
 }
-.margin {
-margin-left:0;	
-}
+
 /*--FOOTER--END--*/
