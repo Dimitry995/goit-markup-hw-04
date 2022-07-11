@@ -490,9 +490,11 @@ color: var(--secondary-color);
 /*--FOOTER--START--*/
 .footer {
 	background-color:var(--six-color);
-	display: flex;
-    	flex-direction: row;
 	padding:60px 0;
+}
+.footer-list {
+	display:flex;
+	flex-direction:row;
 }
 a.logo-bottom {
 	color:var(--four-color);
@@ -588,9 +590,5 @@ a.center:hover  {
 }
 .footer-social-icon {
 	fill:var(--third-color);
-.footer-list {
-	display:flex;
-	flex-direction:row;
-}
 
 /*--FOOTER--END--*/
