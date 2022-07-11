@@ -268,6 +268,7 @@ margin-right:0;
 .person {
 	background-color: var(--five-color);
 }
+
 .person h2 {
 margin: 0 auto;
 font-size: 36px;
@@ -289,6 +290,11 @@ padding-bottom: 50px;
 	margin-top:30px;
 	margin-bottom:15px;
 
+}
+.person-block {
+	padding:0 26px;
+		width:270px;
+	box-sizing: border-box;
 }
 .person-title-h4 {
 font-size: 16px;
@@ -312,7 +318,6 @@ font-weight:400;
 			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 	width:270px;
-	padding:0 26px;
 	box-sizing: border-box;
 }
 .person  img {
