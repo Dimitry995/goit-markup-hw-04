@@ -292,13 +292,12 @@ padding-bottom: 50px;
 
 }
 .person-block {
-	padding:0 26px;
+	padding:0 25px;
 		width:270px;
 	box-sizing: border-box;
 }
 .person-title-h4 {
 font-size: 16px;
-line-height: 19px;
 letter-spacing: 0.03em;
 text-align: center;
 color:var(--secondary-color);
@@ -325,7 +324,7 @@ border-radius: 0px 0px 4px 4px;
 	height:260px;
 }
 .social-list  {
-	width:270px;
+	width:220px;
 	display:inline-block;
 	margin-bottom:30px;
 }
