@@ -8,6 +8,7 @@
 	--seven-color:#eee;
 	--eight-color:#AFB1B8;
 	--nine-color:#ECECEC;
+	--ten-color:#44454e;
 }
 
 body {
@@ -122,11 +123,12 @@ margin-left:0;
 }
 .contact-link {
 font-weight: 500;
-line-height: 0.7;
 letter-spacing: 0.02em;
 text-align: left;
 text-decoration:none;
-color:var(--secondary-color);	
+color:var(--secondary-color);
+display:flex;
+align-items:center;
 }
 .top-icon {
 margin-right:10px;
@@ -207,7 +209,7 @@ fill:var(--eight-color);
 }
 .info h3 {
 	font-weight: 700;
-	line-height: 0,87;
+	line-height: 1.2;
 	letter-spacing: 0.03em;
 	text-align: left;
 	color:var(--main-color);
@@ -226,10 +228,12 @@ fill:var(--eight-color);
 .info-icon {
 	width: 270px;
 	height: 120px;
-	background-color:var(--seven-color);
+	background-color:var(--five-color);
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 .info-icon-use {
-	margin:25px 100px;
 }
 .img {
 	height:auto;
@@ -367,7 +371,7 @@ margin-bottom:50px;
 	height:92px;
 	width:170px;
 	display: inline-flex;
-	border: 1px solid var(--six-color);
+	border: 1px solid var(--eight-color);
 	border-radius: 4px;
 	display: flex;
 	justify-content: center;
@@ -492,7 +496,7 @@ a.logo-bottom {
 	font-family: 'Raleway', sans-serif;
 	font-size: 26px;
 	font-weight: 700;
-	line-height: 31px;
+	line-height: 1.2;
 	letter-spacing: 0.03em;
 	text-align: left;
 }
@@ -512,7 +516,9 @@ a.logo-bottom {
 .left li {
 	list-style:none;
 }
-
+.adress {
+	margin-top:20px;
+}
 a.adress {
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -526,7 +532,7 @@ a.email-phone {
 line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
-color:var(--secondary-color);
+color:var(--ten-color);
 font-style:normal;
 margin-top:9px;
 }
@@ -541,7 +547,7 @@ a.email-phone:focus {
     flex-direction: column;
 	margin-left:70px;
 }
-.center h3 {
+.center-title {
 font-weight: bold;
 line-height: 1.1;
 letter-spacing: 0.03em;
@@ -577,6 +583,8 @@ a.center:hover  {
 	border-radius: 50%;
     	color: var(--secondary-color);
 }
+.footer-social-icon {
+	fill:var(--third-color);
 .footer-list {
 	display:flex;
 }
