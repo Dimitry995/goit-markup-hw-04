@@ -590,6 +590,7 @@ a.center:hover  {
 	fill:var(--third-color);
 .footer-list {
 	display:flex;
+	flex-direction:row;
 }
 
 /*--FOOTER--END--*/
