@@ -536,7 +536,7 @@ a.email-phone {
 line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
-color:var(--ten-color);
+color:var(--secondary-color);
 font-style:normal;
 margin-top:9px;
 }
@@ -567,7 +567,7 @@ color: var(--third-color);
 	height:44px;
 	width:44px;
 	border-radius: 50%;
-    background-color: var(--secondary-color);
+    background-color: var(--ten-color);
 }
 a.center {
 	height:20px;
