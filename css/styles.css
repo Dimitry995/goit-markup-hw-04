@@ -132,7 +132,7 @@ align-items:center;
 }
 .top-icon {
 margin-right:10px;
-fill:var(--eight-color);
+fill:var(--secondary-color);
 }
 .right-item:hover .contact-link {
 	color:var(--four-color);
@@ -213,7 +213,8 @@ fill:var(--eight-color);
 	text-align: left;
 	color:var(--main-color);
 	margin-top:30px;
-	margin-bottom:15px;
+	margin-bottom:10px;
+	text-transform: uppercase;
 
 }
 .info p {
@@ -337,10 +338,11 @@ margin-left:0;
 	margin-left:10px;
 }
 .social-link  {
-  height:20px;
-  width:20px;
-  display: block;
-padding:12px;
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 .social-icon {
 	fill:var(--eight-color);
