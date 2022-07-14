@@ -287,12 +287,11 @@ padding-bottom: 50px;
 	letter-spacing: 0.03em;
 	text-align: center;
 	color:var(--main-color) ;
-	margin-top:30px;
 	margin-bottom:15px;
 
 }
 .person-block {
-	padding:0 25px;
+	padding:25px;
 		width:270px;
 	box-sizing: border-box;
 }
@@ -326,7 +325,6 @@ border-radius: 0px 0px 4px 4px;
 .social-list  {
 	width:220px;
 	display:inline-block;
-	margin-bottom:30px;
 }
 .social-item:first-child {
 margin-left:0;	
