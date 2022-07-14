@@ -154,12 +154,11 @@ fill:var(--secondary-color);
 /*index.html*/
 
 .hero  {
-	background-image: url(../images/18.jpg);
 	padding-top:200px;
 	padding-bottom:200px;
 	text-align:center;
 	max-width:1600px;
-	background: rgba(47, 48, 58, 0.4);
+	background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/18.jpg);
 }
 .hero-title {
 	font-size: 44px;
