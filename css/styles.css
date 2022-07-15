@@ -159,6 +159,7 @@ fill:var(--secondary-color);
 	text-align:center;
 	max-width:1600px;
 	background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/18.jpg);
+	margin:0 auto;
 }
 .hero-title {
 	font-size: 44px;
